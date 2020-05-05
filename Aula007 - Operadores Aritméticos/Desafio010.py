@@ -9,4 +9,4 @@ valor = float(input(f'Qual o valor em reais a ser convertido em {moeda}? R$ '))
 
 novo_valor = valor / cotacao
 
-print(f'R${valor:0.2f} convertidos em {moeda} é igual a {novo_valor:0.2f}.')
+print(f'R${valor:0.2f} convertidos em {moeda} é igual a ${novo_valor:0.2f}.')
