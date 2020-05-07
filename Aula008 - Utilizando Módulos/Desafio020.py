@@ -18,4 +18,9 @@ print('')
 print('-' * 40)
 
 lista_alunos = [aluno_1, aluno_2, aluno_3, aluno_4]
-print(random.sample(lista_alunos)
+random.shuffle(lista_alunos)
+
+print('')
+print(f' A ordem de apresentação de trabalhos é: \n{lista_alunos}.')
+print('')
+print('¬' * 40)
