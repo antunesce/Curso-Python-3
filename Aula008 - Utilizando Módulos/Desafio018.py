@@ -3,6 +3,6 @@
 from math import radians, sin, cos, tan
 angulo = float(input('Digite um ângulo qualquer: '))
 
-angulo_radius = radians(angulo)
+angulo_radius = radians(angulo) # radians(), converte ângulo em radianus.
 
-print(f'{sin(angulo_radius):0.2f}, {cos(angulo_radius):0.2f}, {tan(angulo_radius):0.2f}')
+print(f'O seno é {sin(angulo_radius):0.2f}. \nO consseno é {cos(angulo_radius):0.2f}. \nA tangente é {tan(angulo_radius):0.2f}.')

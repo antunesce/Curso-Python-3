@@ -1,6 +1,6 @@
 # Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
 
-v = input("Digite algo: ")
+v = input("Digite algo: ") # A função input() sempre retorna um valor string.
 
 print('Você digitou "{}" e o tipo primitivo que ele percente é {}.'.format(v, type(v)))
 print('"{}" é um número? {}.'.format(v, v.isnumeric()))

@@ -14,7 +14,7 @@ valor_com_desconto = valor_original - desconto
 
 
 print('')
-print(f'O preço do produto sem desconto é R${valor_original}. \nO valor com {porcentagem_desconto:0.0f}% de desconto é R${valor_com_desconto}.')
-print(f'Você economizou R${desconto}.')
+print(f'O preço do produto sem desconto é R${valor_original:0.2f}. \nO valor com {porcentagem_desconto:0.0f}% de desconto é R${valor_com_desconto:0.2f}.')
+print(f'Você economizou R${desconto:0.2f}.')
 print('')
 print('-' * 60)

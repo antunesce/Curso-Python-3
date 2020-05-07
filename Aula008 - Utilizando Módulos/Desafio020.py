@@ -3,14 +3,19 @@
 import random
 
 print('¬' * 40)
-aluno_1 = input('Digite o nome do aluno de nº 0: ')
-aluno_2 = input('Digite o nome do aluno de nº 1: ')
-aluno_3 = input('Digite o nome do aluno de nº 2: ')
-aluno_4 = input('Digite o nome do aluno de nº 3: ')
-
+aluno_1 = input('Digite o nome do aluno de nº 1: ')
+aluno_2 = input('Digite o nome do aluno de nº 2: ')
+aluno_3 = input('Digite o nome do aluno de nº 3: ')
+aluno_4 = input('Digite o nome do aluno de nº 4: ')
+print('¬' * 40)
+print('')
 print('Lista dos alunos:')
-print(f'0. {aluno_1}.')
-print(f'1. {aluno_2}.')
-print(f'2. {aluno_3}.')
-print(f'3. {aluno_4}.')
-print(random.sample(range(4), k=4))
+print(f'1. {aluno_1}.')
+print(f'2. {aluno_2}.')
+print(f'3. {aluno_3}.')
+print(f'4. {aluno_4}.')
+print('')
+print('-' * 40)
+
+lista_alunos = [aluno_1, aluno_2, aluno_3, aluno_4]
+print(random.sample(lista_alunos)
