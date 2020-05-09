@@ -34,7 +34,7 @@ ex.6: 'Curso' in frase -> o operador 'in' mostra se existe ou não o que foi pes
 # Transformação -> Em regra uma lista de string é imutável, mas é possível mudá-la através de métodos.
 ex.1: 'frase.replace('Python', 'Android')' -> '.replace()' permite substituir um trecho da string por outro. '.replace('Python', 'Android')' a primeira posição ('Python') indica a string que o operador irá procurar para poder substituir pela string da segunda posição ('Android'). Se a palavra for maior e tiver que adicionar um espaço ele fará automaticamente.
 ex.2: 'frase.upper()' -> 'upper()' irá colocar todas letras em maisculas dentro da string, não irá mexer no que já estiver em maiúscula.
-ex.3: 'frase.lower()' -> 'lower()' irá substitir todas as letras maiscúlas em minúsculas, mantendo o que já está em minúscula.
+ex.3: 'frase.lower()' -> 'lower()' irá substitir todas as letras maiúsculas em minúsculas, mantendo o que já está em minúscula.
 ex.4: 'frase.capitalaze()' -> 'capitalaze()' essa função transforma todas as strings em minúsculas e coloca apenas a primera letra de toda a string em maiúscula.
 ex.5: 'frase.title()' -> 'title()' essa função transforma a primeira letra de cada palavra em maiúscula. Essa funação localiza os espaços e faz uma quebra baseado nesses espaços, depois verifica cada pedaço e coloca a primeira letra em maiúscula.
 ex.6: 'frase.strip()' -> '.strip()' remove todos os espaços que estão no inicio e no final da string, mantendo os espaços entre palavras.
