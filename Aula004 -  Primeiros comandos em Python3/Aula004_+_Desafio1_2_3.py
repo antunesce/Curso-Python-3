@@ -1,3 +1,8 @@
+'''
+O símbolo "#" (cerquilha ou reche ou jogo da velha)  é utilizado dentro do Python para escrever comentários, o terminal do Python não vai identificá-lo como um comando a ser executado e irá ignorá-lo.
+Pode ser utilizada as aspas simples 3x para colocar um parágrafo todo como comentário
+'''
+
 # Desafio 001: Crie um scrit Python que leia o nome de uma pessoa e mostra uma mensagem de boas-vindas de acordo com o valor digitado.
 print('========= Desafio 01 ============')
 nome = input('Qual é o seu nome? ')
