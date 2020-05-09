@@ -4,3 +4,6 @@
 # 3. Quantas letras ao todo (sem considerar os espaços).
 # 4. Quantas letras tem o primeiro nome.
 
+
+nome = 'Diego Antunes Campos'
+print(len(nome))
