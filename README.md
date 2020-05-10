@@ -1,9 +1,7 @@
 # Curso Python 3
-**Curso de Python 3** - *Curso em Vídeo* - Prof. Gustavo Guanabara
+__Atualizado até a aula 009. (10/05/2020)__
 
-__Atualizado até a aula 009. (08/05/2020)__
-
-Curso de Programação em Linguagem **Python**, criado pelo professor Gustavo Guanabara, para o portal CursoemVideo.com.
+Curso de **Programação em Linguagem Python**, criado pelo *professor Gustavo Guanabara* :vulcan_salute:, para o portal **CursoemVideo.com**.
 
 
 1. **Mundo 1**: [Fundamentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6). (EM ANDAMENTO) 
