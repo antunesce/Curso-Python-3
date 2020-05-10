@@ -24,6 +24,4 @@ print(nome_sem_espaço)
 '''
 
 # 4. Quantas letras tem o primeiro nome.
-nome = input('Digite o seu nome completo: ').strip
-nome_lista = nome.split()
-print(nome_lista)
+
