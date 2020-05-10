@@ -8,6 +8,3 @@ centena: 8
 milhar: 1
 '''
 
-numero = int(input('Digite um número de 0 a 9999: '))
-unidade = numero[0]
-print(f'unidade: {unidade}.')
