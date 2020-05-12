@@ -7,4 +7,7 @@ dezena: 3
 centena: 8
 milhar: 1
 '''
+import math
+numero = int(input('Digite um número entre 0 e 9999: '))
+
 
