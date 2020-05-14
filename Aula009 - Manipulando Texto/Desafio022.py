@@ -3,30 +3,21 @@
 # 1. O nome com todas as letras maiúsculas.
 nome = input('Digite o seu nome completo: ').strip()
 
-nome_sem_espaço = nome.split()
-nome_correto = ' '.join(nome_sem_espaço)
+nome_lista = nome.split()
+nome_final = ' '.join(nome_lista).title()
 
-print(nome_correto.upper())
+print(f'Seu nome completo é {nome_final}.')
+print(f'Seu nome todo maiúsculo é {nome_final.upper()}.')
 
 # 2. O nome com todas as letras minúsculas.
-nome = input('Digite o seu nome completo: ').strip()
-
-nome_sem_espaço = nome.split()
-nome_correto = ' '.join(nome_sem_espaço)
-
-print(nome_correto.lower())
+print(f'Seu nome em minúsculo é {nome_final.lower()}.')
 
 # 3. Quantas letras ao todo (sem considerar os espaços).
-nome = input('Digite seu nome completo: ').strip()
+nome_junto = ''.join(nome_lista)
+quantidade_letras = len(nome_junto)
 
-nome_sem_espaço = nome.split()
-
-print(len(''.join(nome_sem_espaço)))
+print(f'Seu nome completo possue {quantidade_letras} letras.')
 
 # 4. Quantas letras tem o primeiro nome.
-nome = str(input('Digite o seu nome completo: ')).strip()
-
-nome_completo = nome.title().split()
-nome_final = ' '.join(nome_completo)
-
-print(f' O seu nome completo é {nome_final}, seu primeiro nome é {nome_completo[0]} e possue {len(nome_completo[0])} letras.')
+primeiro_nome = len(nome_lista[0])
+print(f'Seu primeiro nome é {nome_lista[0]} e possue {primeiro_nome} letras.')
