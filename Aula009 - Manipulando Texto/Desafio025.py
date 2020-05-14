@@ -6,7 +6,4 @@ nome_split = nome.split()
 nonme_corrigido = ' '.join(nome_split)
 silva = 'Silva' in nonme_corrigido
 
-print(type(nome))
-print(type(nome_split))
-print(type(nonme_corrigido))
-print(type(silva))
+print(f'Seu nome completo é {nonme_corrigido}.\nPossue "Silva" no nome? {silva}.')
