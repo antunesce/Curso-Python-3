@@ -2,15 +2,22 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 from random import randint
+from time import sleep
+
 print('-' * 60)
 print('{:^60}'.format('Jogo do Adivinha qual o número'))
 print('-' * 60)
 numero = int(input('Vamos brincar de adivinhar, escolha um número de 0 a 5: '))
 
-numero_aleatorio = randint(0, 5)
+numero_aleatorio = randint(0, 5) # Escolhe um número aleatório
 
 print('-' * 60)
 print('')
+
+print('Pensando...')
+sleep(3) # Faz com que o script dê uma pausa de 3 segundos
+print('')
+
 if numero == numero_aleatorio:
     print('Parabéns, você acertou! :D')
     print(f'Você escolheu {numero} e o computador {numero_aleatorio}.')

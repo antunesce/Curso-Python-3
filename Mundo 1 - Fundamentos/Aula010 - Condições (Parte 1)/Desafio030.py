@@ -3,14 +3,13 @@
 print('-' * 60)
 print('{:^60}'.format('Par ou Ímpar'))
 print('-' * 60)
-print('')
 numero = int(input('Digite um número: '))
+print('-' * 60)
 print('')
 
-
-print('')
 if (numero % 2) == 0:
     print(f'Você digitou o número {numero} e é PAR.')
 else:
     print(f'Você digitou o número {numero} e é ÍMPAR.')
+print('')
 print('-' * 60)

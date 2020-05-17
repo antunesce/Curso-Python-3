@@ -15,9 +15,9 @@ Para construir um triângulo é necessário que a medida de qualquer um dos lado
 from math import fabs
 
 if (fabs(l2 - l3) < l1 < (l2 + l3)) and (fabs(l1 - l3) < l2 < (l1 + l3)) and (fabs(l1 - l2) < l3 < (l1 + l3)):
-    print(f'É possível formar um triângulo de lado {l1}, {l2} e {l3}.')
+    print(f'É possível formar um triângulo de lado {l1:0.1f}, {l2:0.1f} e {l3:0.1f}.')
 else:
-    print(f'Não é possível formar um triângulo de lado {l1}{l2} e {l3}.')
+    print(f'Não é possível formar um triângulo de lado {l1:0.1f}, {l2:0.1f} e {l3:0.1f}.')
 
 print('')
 print('-' * 60)
