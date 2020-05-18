@@ -17,9 +17,13 @@ Curso de **Programação em Linguagem Python**, criado pelo *professor Gustavo G
    - [x] 10. *[Condições (Parte 1)](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%201%20-%20Fundamentos/Aula010%20-%20Condi%C3%A7%C3%B5es%20(Parte%201)).*
    - [x] 11. *[Cores no Terminal](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%201%20-%20Fundamentos/Aula011%20-%20Cores%20no%20Terminal).*
    
-[Playlist do Mundo 1: Fundamentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6).
+   [Playlist do Mundo 1: Fundamentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6).
 
-2. **Mundo 2**: [Estruturas de Controle](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye). (PENDENTE) 
+2. **Mundo 2**: [Estruturas de Controle](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle). (EM ANDAMENTO)
+   - [ ] 12. **[Condições Aninhadas](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle/Aula012).**
+   - [ ] 13. **[Estrutura de repetição for](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle/Aula013).**
+   - [ ] 14. **[Estrutura de repetição while]().**
+   - [ ] 15. **[Interrompendo repetições while]().**
 3. **Mundo 3**: [Estruturas compostas](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH). (PENDENTE)
 
 [Lista de exercícios](https://www.youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-)
