@@ -1,16 +1,16 @@
 # Condições Aninhadas
 '''
-tendo um bloco:
+- tendo um bloco:
 if carro.esqueda():
     bloco 1
 
-tendo dois blocos:
+- tendo dois blocos:
 if casso.esqueda():
     bloco 1
 else:
     bloco 2
 
-tendo 3 blocos
+- tendo 3 blocos
 if carro.esquerda():
     bloco 1
 elif carro.direita():
@@ -18,7 +18,7 @@ elif carro.direita():
 else:
     bloco 3
 
-tendo quatro ou mais blocos
+- tendo quatro ou mais blocos
 if carro.esquerda():
     bloco 1
 elif carro.direita():
