@@ -28,17 +28,20 @@ elif carro.re():
 else:
     bloco 4
 
+* Sempre começa com o if, nunca com o elif.
 * Dentro do if pode-se utilizar quantas vezes quiser o elif:, porém o else utiliza uma vez ou nenhuma.
 * elif só pode ser utilizado com if.
 '''
 
-nome = str(input('Qual o seu nome? ')).title().strip()
+nome = str(input('Digite seu nome: ')).strip().title()
+
 if nome == 'Diego':
-    print('Que nome bonito!')
-elif nome == 'João' or nome == 'Maria' or nome == 'Francisco':
-    print('Seu nome é bem popular no Brasil.')
-elif nome in 'Ana Claudia Jéssica Juliana':
-    print('Belo nome feminino')
+    print(f'Seu nome é muito bonito.')
+elif nome == 'Pedro' or nome == 'Maria' or nome == 'João':
+    print(f'Legal seu nome é bíblico.')
+elif nome in 'Ana Celia Celina Clara':
+    print('Que belo nome.')
 else:
     print('Seu nome é bem normal.')
-print(f'Tenha um bom dia {nome}.')
+
+print(f'Tenho um bom dia, {nome}!')
