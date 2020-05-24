@@ -19,6 +19,14 @@ operando
 3- * / // %
 4- + -
 
+***Expressões Lógicas ***
+== (igual)
+!= (diferente)
+> (maior que)
+< (menor que)
+>= (maior ou igual)
+<= (menor ou igual)
+
 Ex.:
 5 + 3 * 2 -> dentre os operadores aritmétios a precedência é multiplicação (*) e depois a soma (+)
 3 * 5 + 4 ** 2 -> dentre os operadores aritméticos a precedência é potência (**), multiplcação (*) e depois soma (+)
