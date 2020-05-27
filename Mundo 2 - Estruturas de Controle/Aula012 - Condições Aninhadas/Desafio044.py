@@ -42,7 +42,7 @@ elif opcao == 2:
     print(f'Valor bruto:                (=) R$ {valor:0.2f}')
     print(f'Valor do desconto (5%):     (-) R$ {desconto:0.2f}')
     print('')
-    print(f'Valor total a pagar:        (=) R$ {valor:0.2f}.')
+    print(f'Valor total a pagar:        (=) R$ {valor_final:0.2f}.')
 elif opcao == 3:
     print('{:^60}'.format('Opção selecionada: "parcelado"'))
     print('=' * 60)
@@ -60,7 +60,8 @@ elif opcao == 3:
         valor_final = valor + juros
         valor_das_parcelas = valor_final / parcelas
         print(f'Valor bruto:            (=) R$ {valor:0.2f}')
-        print(f'{parcelas:>2} Parcela(s)           (x) R${valor_das_parcelas: 0.2f}')
+        print(f'Juros                   (+) R$ {valor_final - valor}')
+        print(f'{parcelas:<2} Parcela(s)           (x) R${valor_das_parcelas: 0.2f}')
         print(f'')
         print(f'Valor total a prazo     (=)R$ {valor_final:0.2f}')
 else:

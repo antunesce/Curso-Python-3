@@ -1,7 +1,7 @@
 # Desafio 045: Crie um programa que faça o computador jogar JOKENPÔ com você.
 
-import emoji
 from random import randint
+from time import sleep
 
 # Título do script
 print('=' * 60)
@@ -25,6 +25,13 @@ print('')
 
 # Opção do NPC
 npc = randint(1, 3)
+
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PÔ!!!')
+print('')
 
 # Teste do game
 # Hipótese de vitória
