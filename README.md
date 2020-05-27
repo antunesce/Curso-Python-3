@@ -20,7 +20,8 @@ Curso de **Programação em Linguagem Python**, criado pelo *professor Gustavo G
    [Playlist do Mundo 1: Fundamentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6).
 
 2. **Mundo 2**: [Estruturas de Controle](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle). (EM ANDAMENTO)
-   - [ ] 12. **[Condições Aninhadas](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle/Aula012).**
+   - [x] 12.*[Condições Aninhadas](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle/Aula012).*
+   
    - [ ] 13. **[Estrutura de repetição for](https://github.com/antunesce/Curso-Python-3/tree/master/Mundo%202%20-%20Estruturas%20de%20Controle/Aula013).**
    - [ ] 14. **[Estrutura de repetição while]().**
    - [ ] 15. **[Interrompendo repetições while]().**
