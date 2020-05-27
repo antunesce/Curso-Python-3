@@ -9,7 +9,6 @@
 print('-' * 60)
 print('{:^60}'.format('Alistamento militar v1.0'))
 print('-' * 60)
-nome = str(input('Qual o seu nome: '))
 ano_nascimento = int(input('Qual o seu ano de nascimento (19XX): '))
 print('-' * 60)
 print('')
@@ -19,11 +18,11 @@ ano = date.today().year
 idade = ano - ano_nascimento
 
 if idade < 18:
-    print(f'Você tem {idade} anos de idade. \nFaltam {18 - idade} anos para você poder se alistar.')
+    print(f'Você tem {idade} ano(s) de idade. \nFalta(m) {18 - idade} ano(s) para você poder se alistar, em {ano + (18 - idade)}.')
 elif idade == 18:
-    print(f'Você tem {idade} anos de idade e deve se alistar.')
+    print(f'Você tem {idade} ano(s) de idade e deve se alistar.')
 else:
-    print(f'Você tem {idade} anos de idade. \nHá {idade - 18} anos você deveria ter se alistado.')
+    print(f'Você tem {idade} ano(s) de idade. \nHá {idade - 18} ano(s) você deveria ter se alistado, em {ano_nascimento + 18}.')
 
 print('')
 print('-' * 60)

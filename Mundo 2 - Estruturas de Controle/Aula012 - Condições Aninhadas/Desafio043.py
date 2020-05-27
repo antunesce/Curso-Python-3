@@ -15,8 +15,10 @@ altura = float(input('Qual a sua altura (m): '))
 print('-' * 60)
 print('')
 
+# Cálculo do IMC
 imc = peso / (altura * altura)
 
+# Teste da faixa do IMC
 if imc < 18.5:
     print(f'O seu IMC é de {imc:0.1f}, você está abaixo do peso.')
 elif imc == 18.5 or imc <= 25:

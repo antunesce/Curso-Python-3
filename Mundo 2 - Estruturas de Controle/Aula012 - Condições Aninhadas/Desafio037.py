@@ -9,7 +9,7 @@ print('=' * 60)
 print('{:^60}'.format('Conversor numérico v1.0'))
 print('=' * 60)
 number = int(input('Digite um valor a ser convertido: '))
-print('-' * 60)
+print('=' * 60)
 print('''Opções para conversão:
 1 - Binário
 2 - Octal
@@ -19,15 +19,15 @@ print('=' * 60)
 print('')
 
 if option == 1:
-    number_binary = bin(number)
+    number_binary = bin(number)[2:]
     print(f'de Decimal: {number}')
     print(f'para Binário: {number_binary}')
 elif option == 2:
-    number_octal = oct(number)
+    number_octal = oct(number)[2:]
     print(f'de Decimal: {number}')
     print(f'para Octal: {number_octal}')
 elif option == 3:
-    number_hexdecimal = hex(number)
+    number_hexdecimal = hex(number)[2:]
     print(f'de Decimal: {number}')
     print(f'para Hexadecimal: {number_hexdecimal}')
 else:

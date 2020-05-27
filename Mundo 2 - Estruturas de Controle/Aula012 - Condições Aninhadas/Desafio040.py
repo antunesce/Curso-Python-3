@@ -16,11 +16,11 @@ print('')
 media = (n1 + n2) / 2
 
 if media < 5:
-    print(f'A Média foi de {media}, \033[1;31mREPROVADO\033[m.')
-elif media > 6.9:
-    print(f'A média foi de {media}, \033[1;32mAPROVADO\033[m.')
+    print(f'A Média foi {media:0.1f}, \033[1;31mREPROVADO\033[m.')
+elif media >= 7:
+    print(f'A média foi {media:0.1f}, \033[1;32mAPROVADO\033[m.')
 else:
-    print(f'A média foi de {media}, \033[1;33mRECUPERAÇÃO\033[m.')
+    print(f'A média foi {media:0.1f}, \033[1;33mRECUPERAÇÃO\033[m.')
 
 print('')
 print('-' * 60)
